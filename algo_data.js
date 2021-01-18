@@ -8,10 +8,10 @@ $(function() {
         header.innerHTML = "목차";
         main.appendChild(header);
         
-        var contents_list = document.createElement("ul");
+        var contents_list = document.createElement("ol");
         for (i in data) {
             var li = document.createElement("li");
-            li.innerHTML = '<li><a href="#' + data[i].chapter_id + '">' + data[i].chapter_name + '</a></li>'
+            li.innerHTML = '<a href="#' + data[i].chapter_id + '">' + data[i].chapter_name + '</a>'
             contents_list.appendChild(li);
         }
         main.appendChild(contents_list);
