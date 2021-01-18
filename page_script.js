@@ -35,7 +35,8 @@ function myAccordion(id) {
 }
 
 $(function() {
-    $.getJSON("menus.json", function(menus) {
+    // TODO: footer
+    $.getJSON("resources/menus.json", function(menus) {
         var sidebar = document.getElementById("mySidebar");
         for (i in menus) {
             var bar_item = document.createElement("a");
@@ -49,5 +50,5 @@ $(function() {
             bar_item.appendChild(document.createTextNode(menus[i].menu_name))
             sidebar.appendChild(bar_item);
         }
-    })
+    });
 });

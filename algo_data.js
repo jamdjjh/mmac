@@ -1,8 +1,6 @@
-var main = document.getElementById("main-container");
-
 $(function() {
-    $.getJSON("data.json", function( data ) {
-        console.log(data)
+    $.getJSON("resources/algo_data.json", function( data ) {
+        var main = document.getElementById("main-container");
 
         var header = document.createElement("h2");
         header.innerHTML = "목차";

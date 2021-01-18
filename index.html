@@ -15,14 +15,13 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="resources/style.css">
 
 <body>
-
   <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;"
     id="mySidebar">
-    <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img
-        src="u_mmac_logo_201311.gif" style="width:100%;"></a>
+    <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="index.html"><img
+        src="resources/u_mmac_logo_201311.gif" style="width:100%;"></a>
     <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i
         class="fa fa-remove"></i></a>
   </nav>
@@ -43,6 +42,8 @@
     </header>
 
     <div id="main-container" class="w3-container" style="padding:32px">
+      <button class="w3-button w3-card w3-blue" onclick="location.href='algo.html'">알고리즘</button>
+      <button class="w3-button w3-card w3-blue" onclick="location.href='https://drive.google.com/drive/folders/1AKzLbQDBmO5GXQyddUQEs0b3nIKk_-9b?usp=sharing'">참고자료</button>
     </div>
 
     <footer class="w3-container w3-theme" style="padding:32px">
@@ -51,6 +52,9 @@
 
   </div>
 
+  <!--
+  <script src="home_data.js"></script>
+  -->
   <script src="page_script.js"></script>
 
 </body>
