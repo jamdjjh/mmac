@@ -198,7 +198,7 @@
     "chapter_concepts": [
       {
         "concept_title": "큐 개념",
-        "link": "http://220.89.64.243/30stair/stack/stack.php?pname=stack"
+        "link": "http://220.89.64.243/30stair/queue/queue.php?pname=queue"
       },
       {
         "concept_title": "BFS 개념",
@@ -244,7 +244,7 @@
     "chapter_concepts": [
       {
         "concept_title": "그래프 개념",
-        "link": "http://220.89.64.243/30stair/graph/graph.php?pname=graph"
+        "link": "docs/graph.html"
       }
     ],
     "chapter_problems": [

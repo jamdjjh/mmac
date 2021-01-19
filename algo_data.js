@@ -26,7 +26,7 @@ $(function() {
                 // <div class="w3-panel w3-blue w3-card">
                 var concept_card = document.createElement("div");
                 concept_card.className = "w3-panel w3-blue w3-card";
-                concept_card.innerHTML = '<p><a href="' + con.link + '">' + con.concept_title + '</a></p>'
+                concept_card.innerHTML = '<p><i class="far fa-file w3-large"></i>&nbsp;<a href="' + con.link + '">' + con.concept_title + '</a></p>'
                 main.appendChild(concept_card)
             }
 
