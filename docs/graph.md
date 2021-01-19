@@ -35,4 +35,8 @@
 
 ![그래프 예시](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/666px-6n-graf.svg.png){: width="50%"}
 
-우선 이차원 배열을 만들 것이다. 
+우선 `adj`라는 이차원 배열을 만들 것이다. 예를 들어 1번 정점에서 2번 정점으로 갈 수 있다면, `adj[1][2]`를 1로 만든다. 또 1번 정점에서 3번 정점으로 가는 간선은 없다. 따라서 `adj[i][3]`은 0이 된다. 이런 식으로 배열을 채우면 다음과 같은 모양이 될 것이다.
+
+![인접 행렬](resources/adjmat.png){: width="70%"}
+
+이런 형태의 이차원 배열을 **인접 행렬**(adjacency matrix)이라고 부른다. 만약 a번 정점과 b번 정점이 연결되어 있는지 확인하기 위해서는 `adj[a][b]`가 0인지 1인지 확인하면 된다.
