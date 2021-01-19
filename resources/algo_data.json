@@ -104,11 +104,11 @@
     "chapter_concepts": [
       {
         "concept_title": "아스키 코드",
-        "link": "ascii.html"
+        "link": "docs/ascii.html"
       },
       {
         "concept_title": "문자열 개념",
-        "link": "string.html"
+        "link": "docs/string.html"
       }
     ],
     "chapter_problems": [
