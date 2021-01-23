@@ -6,6 +6,12 @@ C에서 문자열은 `char`형의 배열로 표현된다.
 
 ## Null 문자
 
+## 문자열 입출력
+
+printf
+scanf
+gets, fgets
+
 ## string.h 함수
 
 ### strlen

@@ -6,7 +6,7 @@
 
 ![쾨니히스베르크의 다리](https://cdn.britannica.com/77/74877-050-F5DD4C34/Leonhard-Euler-route-each-question-bridges-Swiss.jpg){: width="600"}
 
-오일러는 그런 방법이 없다는 것을 증명하기 위해 **그래프**(graph)라는 개념을 만들게 되었다. 도시와 섬을 점으로, 다리는 그것들을 잇는 선으로 나타낼 수 있다.
+오일러는 그런 방법이 없다는 것을 수학적으로 증명하기 위해 **그래프**(graph) 이론을 만들게 되었다. 도시와 섬을 점으로, 다리는 그것들을 잇는 선으로 나타낼 수 있다.
 
 ![쾨니히스베르크 그래프](https://www.researchgate.net/profile/Pawel_Boguslawski/publication/265219734/figure/fig3/AS:652964947558402@1532690383480/The-Koenigsberg-bridge-problem-a-seven-bridges-of-Koenigsberg-b-graph-representation.png){: width="600"}
 
@@ -17,15 +17,19 @@
 
 ## 그래프의 종류
 그래프는 무방향 그래프와 방향 그래프로 나눌 수 있다.
+
 **무방향 그래프**는 쾨니히스베르크의 다리 문제와 같이 한쪽 정점에서 다른 쪽 정점으로 건너갈 수 있고, 그 반대 방향으로도 건너갈 수 있을 때를 의미한다.
+
 한편 **방향 그래프** (또는 유향(有向) 그래프)에서는 간선이 일방통행이기 때문에, 한 정점에서 다른 정점으로 건너갈 수 있다고 해서 반대 방향으로도 건너갈 수 있는 것은 아니다. 방향 그래프에서는 다음과 같이 간선을 화살표로 표시한다.
 
 ![방향 그래프](https://upload.wikimedia.org/wikipedia/commons/a/a2/Directed.svg)
 
 ## 차수와 한붓그리기
-어떤 노드의 차수란, 노드와 연결되어 있는 간선의 개수를 의미한다. 예를 들어, 다음 그림에서 1번 노드의 차수는 2, 4번 노드의 차수는 3, 6번 노드의 차수는 1이다.
+어떤 노드의 **차수**(degree)란, 노드와 연결되어 있는 간선의 개수를 의미한다. 예를 들어, 다음 그림에서 1번 노드의 차수는 2, 4번 노드의 차수는 3, 6번 노드의 차수는 1이다.
 
 ![그래프 예시](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/666px-6n-graf.svg.png){: width="300"}
+
+방향 그래프에서는, 노드로 들어오는 화살표(간선)의 개수를 **진입 차수**(in-degree), 노드에서 빠져나오는 화살표의 개수를 **진출 차수**(out-degreee)라고 부른다.
 
 무방향 그래프에서, 차수가 홀수인 노드가 0개 또는 2개일 때만 한붓그리기가 가능하다. 그 이유가 궁금하다면 나중에 한번 곰곰이 생각해 보도록 하자.
 
