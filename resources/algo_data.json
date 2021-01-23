@@ -341,9 +341,43 @@
       {
         "concept_title": "트리 개념",
         "link": "http://220.89.64.243/30stair/tree_doc/tree_doc.php?pname=tree_doc"
+      },
+      {
+        "concept_title": "힙",
+        "link": "http://220.89.64.243/30stair/heap/heap.php?pname=heap"
       }
     ],
     "chapter_problems": [
+      {
+        "from": "더블릿",
+        "name": "가장 가까운 조상",
+        "link": "http://220.89.64.243/30stair/nca/nca.php?pname=nca"
+      },
+      {
+        "from": "더블릿",
+        "name": "이진트리 방문 I",
+        "link": "http://220.89.64.243/30stair/postorder/postorder.php?pname=postorder"
+      },
+      {
+        "from": "더블릿",
+        "name": "이진트리 깊이",
+        "link": "http://220.89.64.243/30stair/depth/depth.php?pname=depth"
+      },
+      {
+        "from": "백준",
+        "name": "트리의 높이와 너비",
+        "link": "https://www.acmicpc.net/problem/2250"
+      },
+      {
+        "from": "백준",
+        "name": "트리의 지름",
+        "link": "https://www.acmicpc.net/problem/1167"
+      },
+      {
+        "from": "백준",
+        "name": "최대 힙",
+        "link": "https://www.acmicpc.net/problem/11279"
+      }
     ]
   },
   {
