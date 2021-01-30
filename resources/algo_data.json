@@ -85,16 +85,6 @@
         "from": "백준",
         "name": "N과 M (2)",
         "link": "https://www.acmicpc.net/problem/15650"
-      },
-      {
-        "from": "더블릿",
-        "name": "비트 패턴",
-        "link": "http://220.89.64.243/30stair/pat/pat.php?pname=pat"
-      },
-      {
-        "from": "더블릿",
-        "name": "축사 보안장치",
-        "link": "http://220.89.64.243/30stair/secure/secure.php?pname=secure"
       }
     ]
   },
@@ -211,7 +201,7 @@
       },
       {
         "concept_title": "BFS 개념",
-        "link": ""
+        "link": "#"
       }
     ],
     "chapter_problems": [
@@ -343,6 +333,10 @@
         "link": "http://220.89.64.243/30stair/tree_doc/tree_doc.php?pname=tree_doc"
       },
       {
+        "concept_title": "이진 트리",
+        "link": "#"
+      },
+      {
         "concept_title": "힙",
         "link": "http://220.89.64.243/30stair/heap/heap.php?pname=heap"
       }
@@ -400,6 +394,40 @@
         "from": "백준",
         "name": "최소 신장 트리 (문제집)",
         "link": "https://www.acmicpc.net/step/15"
+      }
+    ]
+  },
+  {
+    "chapter_id": "ch-backtracking",
+    "chapter_name": "백트래킹 2",
+    "chapter_concepts": [
+
+    ],
+    "chapter_problems": [
+      {
+        "from": "더블릿",
+        "name": "비트 패턴",
+        "link": "http://220.89.64.243/30stair/pat/pat.php?pname=pat"
+      },
+      {
+        "from": "더블릿",
+        "name": "축사 보안장치",
+        "link": "http://220.89.64.243/30stair/secure/secure.php?pname=secure"
+      },
+      {
+        "from": "백준",
+        "name": "스도쿠",
+        "link": "https://www.acmicpc.net/problem/2580"
+      },
+      {
+        "from": "백준",
+        "name": "N-Queen",
+        "link": "https://www.acmicpc.net/problem/9663"
+      },
+      {
+        "from": "백준",
+        "name": "좋은 수열",
+        "link": "https://www.acmicpc.net/problem/2661"
       }
     ]
   },
