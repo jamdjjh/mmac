@@ -5,6 +5,11 @@
         "link": "index.html"
     },
     {
+        "menu_id": "begin",
+        "menu_name": "초급반",
+        "link": "begin.html"
+    },
+    {
         "menu_id": "algo",
         "menu_name": "알고리즘",
         "link": "algo.html"
